@@ -1,5 +1,4 @@
 FROM node:alpine
-MAINTAINER Wodby <hello@wodby.com>
 
 RUN npm install -g slackin
 
