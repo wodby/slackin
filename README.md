@@ -16,6 +16,6 @@
 | SLACK_TEAM  | | |
 | SLACK_TOKEN | | |
 
-## Using in production
+## Deployment
 
 Deploy Slackin to your own server via [![Wodby](https://www.google.com/s2/favicons?domain=wodby.com) Wodby](https://wodby.com).
