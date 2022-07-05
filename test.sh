@@ -23,5 +23,5 @@ slackin make check-ready host="${name}" max_try=10
 echo "OK"
 
 echo -n "Checking Slackin version... "
-slackin slackin -v | grep -q "0.13.*"
+slackin slackin -v | grep -q "2.2.*"
 echo "OK"
