@@ -9,4 +9,4 @@ COPY bin /usr/local/bin
 COPY docker-entrypoint.sh /
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["bash", "-c", "slackin -p 80 ${SLACK_TEAM} ${SLACK_TOKEN}"]
+CMD ["bash", "-c", "slackin ${SLACK_TEAM} ${SLACK_TOKEN}"]
