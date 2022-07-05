@@ -11,4 +11,4 @@ COPY docker-entrypoint.sh /
 USER root
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["bash", "-c", "slackin ${SLACK_TEAM} ${SLACK_TOKEN}"]
+CMD ["bash", "-c", "slackin -h '0.0.0.0' ${SLACK_TEAM} ${SLACK_TOKEN}"]
